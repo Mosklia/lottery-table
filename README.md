@@ -1,4 +1,6 @@
-# Fabric Example Mod
+# Lottery Table
+
+Enables your Crafting Table to work as a lottery machine!
 
 ## Setup
 
