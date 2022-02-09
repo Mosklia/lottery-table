@@ -1,0 +1,17 @@
+{
+  "type": "lottery_table:lottery_recipe",
+  "input": {
+    "item": "minecraft:ender_pearl"
+  },
+  "output": [
+    {
+      "item": "minecraft:apple",
+      "weight": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "weight": 1,
+      "count": 2
+    }
+  ]
+}

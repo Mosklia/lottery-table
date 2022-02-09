@@ -1,6 +1,7 @@
 package cn.mosklia.lotterytable;
 
 import cn.mosklia.lotterytable.block.Blocks;
+import cn.mosklia.lotterytable.recipe.RecipeTypes;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +19,7 @@ public class LotteryTable implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		Blocks.registerAll();
+		RecipeTypes.registerAll();
 
 		LOGGER.info("Hello Fabric world!");
 	}
